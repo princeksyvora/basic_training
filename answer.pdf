@@ -1,0 +1,50 @@
+1. created it using the github ui
+2. cd ./desktop/gitassignment/
+git init
+the folder now contains a .git file that has all the metadata and
+configurations of git repo.
+3. git remote add origin
+https://github.com/princeksyvora/i-am-a-git-noob.git4. git config –list
+5. git config --local user.name princek
+git config --local user.email pkala@qodeleaf.com
+6. touch test1.txt
+7. echo “first line in file” >> test1.txt
+8. git push -u origin main
+9. echo "second line in file" >> test1.txt
+10.
+git add .
+11. git status
+12.
+echo “third line in file” >> test1.txt
+13.
+git restore –staged test1.txt
+14.
+git add .
+git commit -m “my first commit”
+15.
+git push -u origin main
+16.
+git commit --amend -m "my second commit"
+17.
+git push –force origin main
+18.
+git diff head~1 head
+19.
+git revert head
+git log
+20.
+echo “fourth line in file” >> test1.txt
+git add .
+git commit -m “my commit”
+21.
+git commit --amend
+In Editor- echo “Fifth line in a file” >> test1.txt
+22.
+git push --force origin main
+23.
+echo “Hello, I’m adding this line here” >> test1.txt
+24.
+git pull origin main
+25.
+cd ./dell/Desktop/Git2
+git clone https://github.com/princeksyvora/i-am-a-git-noob.git
